@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name         = "Dependencies"
   spec.version      = "0.1.4"
-  spec.summary      = "A dependency management library inspired by SwiftUI's "environment.""
+  spec.summary      = "A dependency management library inspired by SwiftUI's environment."
   spec.homepage     = "https://github.com/pointfreeco/swift-dependencies"
   spec.license      = { type: 'MIT', file: 'LICENSE' }
   spec.swift_versions = "5.6"
