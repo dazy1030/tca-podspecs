@@ -15,4 +15,5 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pointfreeco/swift-case-paths.git", :tag => "#{spec.version}" }
   spec.source_files  = "Sources/CasePaths/**/*.swift"
+  spec.dependency "XCTestDynamicOverlay"
 end
