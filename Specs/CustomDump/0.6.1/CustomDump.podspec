@@ -12,5 +12,5 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pointfreeco/swift-custom-dump.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/CustomDump/**/*.swift"
-  spec.dependency "XCTestDynamicOverlay", "~> 0.2.0"
+  spec.dependency "XCTestDynamicOverlay", ">= 0.2.0", "< 1.0.0"
 end

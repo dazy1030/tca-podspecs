@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pointfreeco/combine-schedulers.git", :tag => "#{spec.version}" }
   spec.source_files  = "Sources/CombineSchedulers/**/*.swift"
-  spec.dependency "XCTestDynamicOverlay", "~> 0.3.0"
+  spec.dependency "XCTestDynamicOverlay", ">= 0.3.0", "< 1.0.0"
 end

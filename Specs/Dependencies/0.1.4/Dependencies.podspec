@@ -14,5 +14,5 @@ Pod::Spec.new do |spec|
   spec.source_files = "Sources/Dependencies/**/*.swift"
   spec.dependency "CombineSchedulers", "~> 0.1.0"
   spec.dependency "Clocks", "~> 0.1.0"
-  spec.dependency "XCTestDynamicOverlay", "~> 0.8.0"
+  spec.dependency "XCTestDynamicOverlay", ">= 0.8.0", "< 1.0.0"
 end

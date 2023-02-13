@@ -15,5 +15,5 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pointfreeco/swift-identified-collections.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/IdentifiedCollections/**/*.swift"
-  spec.dependency "OrderedCollections", "~> 1.0.2"
+  spec.dependency "OrderedCollections", ">= 1.0.2", "< 2.0.0"
 end

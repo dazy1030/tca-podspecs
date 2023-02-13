@@ -15,12 +15,12 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/pointfreeco/swift-composable-architecture.git", :tag => "#{spec.version}" }
   spec.source_files = "Sources/ComposableArchitecture/**/*.swift"
-  spec.dependency "CasePaths", "~> 0.10.0"
-  spec.dependency "CombineSchedulers", "~> 0.8.0"
-  spec.dependency "CustomDump", "~> 0.6.0"
-  spec.dependency "Dependencies", "~> 0.1.2"
-  spec.dependency "IdentifiedCollections", "~> 0.4.1"
-  spec.dependency "OrderedCollections", "~> 1.0.2"
-  spec.dependency "_SwiftUINavigationState", "~> 0.6.0"
-  spec.dependency "XCTestDynamicOverlay", "~> 0.5.0"
+  spec.dependency "CasePaths", ">= 0.10.0", "< 1.0.0"
+  spec.dependency "CombineSchedulers", ">= 0.8.0", "< 1.0.0"
+  spec.dependency "CustomDump", ">= 0.6.0", "< 1.0.0"
+  spec.dependency "Dependencies", ">= 0.1.2", "< 1.0.0"
+  spec.dependency "IdentifiedCollections", ">= 0.4.1", "< 1.0.0"
+  spec.dependency "OrderedCollections", ">= 1.0.2", "< 2.0.0"
+  spec.dependency "_SwiftUINavigationState", ">= 0.6.0", "< 1.0.0"
+  spec.dependency "XCTestDynamicOverlay", ">= 0.5.0", "< 1.0.0"
 end
